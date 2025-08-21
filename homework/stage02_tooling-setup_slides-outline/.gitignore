@@ -1,6 +1,5 @@
-# Ignore Python cache files
-__pycache__/
-*.pyc
-
-# Ignore environment files
+# Ignore secrets & local stuff
 .env
+/data/
+__pycache__/
+.ipynb_checkpoints/
