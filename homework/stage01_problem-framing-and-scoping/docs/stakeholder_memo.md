@@ -14,16 +14,12 @@ This project will analyze historical yield spreads (e.g., Treasury 10Y–2Y, cre
 
 ## Deliverables
 
-<Bullets:>
-
 - A clean dataset linking spreads to dividend index returns.
 - Regression and scenario analysis quantifying spread–return sensitivities.
 - A dashboard highlighting scenarios (e.g., inverted yield curve) and expected index performance.
 - A summary memo with decision triggers for overweight/underweight positioning.
 
 ## Next Steps
-
-<Bullets:>
 
 - Stage 01: Define spread metrics and gather data.
 - Stage 02: Run regressions and scenario analysis.

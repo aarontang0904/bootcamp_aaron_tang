@@ -10,14 +10,10 @@ This project seeks to quantify the relationship between yield spreads (e.g., 10Y
 
 ## Stakeholder & User
 
-<Bullets:>
-
 - **Primary Stakeholder:** Portfolio managers and factor strategy designers at asset management firms.
 - **End Users:** Quantitative researchers and investment analysts who need evidence-based tools to evaluate when dividend index allocations are advantageous or risky.
 
 ## Useful Answer & Decision
-
-<Bullets:>
 
 - **Type:** Predictive (forecast future dividend index performance based on spread regimes) & Descriptive (summarize historical spread–return sensitivities).
 - **Metrics:** Dividend index excess return forecasts, spread beta coefficients, drawdown probabilities.
@@ -28,16 +24,12 @@ This project seeks to quantify the relationship between yield spreads (e.g., 10Y
 
 ## Assumptions & Constraints
 
-<Bullets:>
-
 - Historical spread–return relationships are sufficiently stable to provide predictive value.
 - Data is sourced from public and reliable databases (FRED, Bloomberg, MSCI indices).
 - Limited access to proprietary transaction-level data; dependent on daily/weekly resolution instead of intraday.
 - Compliance restrictions prevent use of certain alternative datasets.
 
 ## Known Unknowns / Risks
-
-<Bullets:>
 
 - Structural changes in monetary policy may reduce the relevance of historical spread–dividend relationships.
 - Dividend strategies may behave differently in volatile vs. calm macro environments, introducing non-linearities.
@@ -52,8 +44,6 @@ Goal → Stage → Deliverable
 - Build interactive tools and stakeholder memo → Visualization & Reporting (Stage 03) → Dashboard + summary report
 
 ## Repo Plan
-
-<Bullets:>
 
 - `/data/` : Treasury yields, credit spreads, dividend index returns
 - `/src/` : Functions for spread calculations, regressions, scenario analysis
